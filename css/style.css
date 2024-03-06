@@ -445,18 +445,25 @@ section{
      text-decoration: line-through;
 }
 
+.swiper-button-next,
+.swiper-button-prev{
+     border: var(--border-hover);
+     height: 4rem;
+     width: 4rem;
+     color: var(--black);
+     background: #fff;
+}
 
+.swiper-button-next:hover,
+.swiper-button-prev:hover{
+     font-size: 2rem;
+}
 
-
-
-
-
-
-
-
-
-
-
+.swiper-button-next:hover,
+.swiper-button-prev:hover{
+     background: var(--black);
+     color: #fff;
+}
 
 
 
