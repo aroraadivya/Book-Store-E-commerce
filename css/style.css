@@ -69,6 +69,7 @@ section{
      padding: 5rem 2rem;
      color: var(--black);
      background: #fff;
+     border: var(--border);
 }
 
 .btn{
@@ -367,6 +368,14 @@ section{
      color: var(--light-color);
 }
 
+.featured .featured-slider .box{
+     width: 25rem;
+     margin: 2rem 0;
+     position: relative;
+     overflow: hidden;
+     border: var(--border);
+     text-align: center;
+}
 
 
 
