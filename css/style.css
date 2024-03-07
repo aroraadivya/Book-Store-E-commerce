@@ -311,12 +311,15 @@ section{
 
 .home .row .books-slider{
      flex: 1 1 42rem;
+     display: flex;
      text-align: center;
+     justify-content: center;
      margin-top: 2rem;
 }
 
 .home .row .books-slider a img{
      height: 25rem;
+     /* margin: 100px; */
 }
 .home .row .books-slider a:hover img{
      transform: scale(.9);
@@ -340,7 +343,8 @@ section{
 }
 
 .icons-container{
-     display: grid;
+     display: flex;
+     justify-content: space-between;
      grid-template-columns:repeat(auto-fit, minmax(25rem, 1fr));
      gap: 1.5rem;
 }
