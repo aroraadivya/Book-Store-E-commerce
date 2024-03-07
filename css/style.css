@@ -343,10 +343,10 @@ section{
 }
 
 .icons-container{
-     display: flex;
+     display: grid;
      justify-content: space-between;
      grid-template-columns:repeat(auto-fit, minmax(25rem, 1fr));
-     gap: 1.5rem;
+     /* gap: 1.5rem; */
 }
 
 .icons-container .icons{
