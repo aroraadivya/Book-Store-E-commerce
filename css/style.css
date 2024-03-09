@@ -710,6 +710,20 @@ section{
      background: var(--black);
 }
 
+.footer .credit {
+     border-top: var(--border);
+     margin-top: 2rem;
+     padding: 0 1 rem;
+     padding-top: 2.5rem;
+     font-size: 2rem;
+     color: var(--light-color);
+     text-align: center;
+}
+
+.footer .credit span{
+     color: var(--green);
+}
+
 
 
 
