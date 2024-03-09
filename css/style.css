@@ -615,9 +615,9 @@ section{
 }
 
 .blogs .blogs-slider .box{
-     margin: 2rem 0;
-     /* width: 30rem; */
      border: var(--border);
+     margin: 2rem 0;
+     width: 30rem;
 }
 
 .blogs .blogs-slider .box:hover{
@@ -633,6 +633,7 @@ section{
 .blogs .blogs-slider .box .image img{
      height: 100%;
      width: 100%;
+     border-radius: 50%;
      object-fit: cover;
 }
 
@@ -655,8 +656,6 @@ section{
      padding: 1rem 0;
      line-height: 2;
 }
-
-
 
 
 
